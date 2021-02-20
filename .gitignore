@@ -1,0 +1,11 @@
+
+cache/definitions/4.8.0/cartesio
+.DS_Store
+*.py
+*.log
+cache/*
+cura.cfg
+cura.log.1
+packages.json
+plugins.json
+plugins/*
