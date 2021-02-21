@@ -9,8 +9,8 @@
     </name>
     <version>11</version>
     <color_code>#304a59</color_code>
-    <description>Wear and tear resistant. TPU features a Shore-A hardness of 95 and an elongation of up to 580% at break. Suitable for applications that require slight flexibility, wear and tear, and chemical resistance.</description>
-    <adhesion_info>Use glue.</adhesion_info>
+    <adhesion_info />
+    <description />
     <GUID>90306ec6-27e0-49da-ab2a-4a1c30f7e088</GUID>
   </metadata>
   <properties>
@@ -18,32 +18,32 @@
     <diameter>1.71</diameter>
   </properties>
   <settings>
-    <setting key="adhesion tendency">3</setting>
+    <setting key="heated bed temperature">40.0</setting>
+    <cura:setting key="material_crystallinity">true</cura:setting>
     <setting key="standby temperature">175.0</setting>
     <setting key="print cooling">100.0</setting>
-    <setting key="retraction speed">50.0</setting>
-    <cura:setting key="material_crystallinity">true</cura:setting>
-    <setting key="build volume temperature">27</setting>
-    <setting key="retraction amount">2.4</setting>
     <cura:setting key="material_linear_advance_factor">0.7</cura:setting>
+    <setting key="retraction speed">50.0</setting>
+    <setting key="retraction amount">2.4</setting>
     <setting key="surface energy">100</setting>
     <setting key="print temperature">228.0</setting>
-    <setting key="heated bed temperature">40.0</setting>
+    <setting key="build volume temperature">27</setting>
+    <setting key="adhesion tendency">3</setting>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_ender3" />
-      <setting key="retraction amount">5</setting>
-      <setting key="standby temperature">200</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="heated bed temperature">80.0</setting>
+      <setting key="standby temperature">200</setting>
       <setting key="print cooling">50</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="retraction amount">5</setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="CreawsomeMod" product="creality_base" />
-      <setting key="retraction amount">5</setting>
-      <setting key="standby temperature">200</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="heated bed temperature">80.0</setting>
+      <setting key="standby temperature">200</setting>
       <setting key="print cooling">50</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="retraction amount">5</setting>
     </machine>
   </settings>
 </fdmmaterial>
