@@ -9,8 +9,8 @@
     </name>
     <version>3</version>
     <color_code>#f3a112</color_code>
-    <GUID>32b6a99b-b886-4aab-9f93-f53ea6c109d5</GUID>
     <adhesion_info />
+    <GUID>32b6a99b-b886-4aab-9f93-f53ea6c109d5</GUID>
     <description />
   </metadata>
   <properties>
@@ -18,12 +18,12 @@
     <density>1.38</density>
   </properties>
   <settings>
-    <setting key="standby temperature">120</setting>
-    <setting key="retraction amount">1.5</setting>
     <setting key="print temperature">240.0</setting>
+    <setting key="standby temperature">120</setting>
+    <setting key="heated bed temperature">70.0</setting>
+    <cura:setting key="adhesion_z_offset">-0.04</cura:setting>
+    <setting key="retraction amount">1.5</setting>
     <setting key="retraction speed">30</setting>
     <cura:setting key="material_linear_advance_factor">0.26</cura:setting>
-    <setting key="heated bed temperature">70.0</setting>
-    <cura:setting key="adhesion_z_offset">0</cura:setting>
   </settings>
 </fdmmaterial>

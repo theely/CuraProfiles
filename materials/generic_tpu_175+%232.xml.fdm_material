@@ -3,47 +3,47 @@
   <metadata>
     <name>
       <brand>Extrudr</brand>
-      <material>TPU</material>
+      <material>TPU 95A</material>
       <color>Generic</color>
       <label>TPU 98A</label>
     </name>
     <version>11</version>
-    <color_code>#304a59</color_code>
     <adhesion_info />
-    <description />
     <GUID>90306ec6-27e0-49da-ab2a-4a1c30f7e088</GUID>
+    <description />
+    <color_code>#304a59</color_code>
   </metadata>
   <properties>
-    <density>1.19</density>
     <diameter>1.71</diameter>
+    <density>1.19</density>
   </properties>
   <settings>
+    <setting key="print temperature">228.0</setting>
     <setting key="heated bed temperature">40.0</setting>
-    <cura:setting key="material_crystallinity">true</cura:setting>
-    <setting key="standby temperature">175.0</setting>
+    <setting key="retraction amount">2.4</setting>
     <setting key="print cooling">100.0</setting>
     <cura:setting key="material_linear_advance_factor">0.7</cura:setting>
-    <setting key="retraction speed">50.0</setting>
-    <setting key="retraction amount">2.4</setting>
+    <cura:setting key="material_crystallinity">true</cura:setting>
     <setting key="surface energy">100</setting>
-    <setting key="print temperature">228.0</setting>
     <setting key="build volume temperature">27</setting>
     <setting key="adhesion tendency">3</setting>
-    <machine>
-      <machine_identifier manufacturer="Creality3D" product="creality_ender3" />
-      <setting key="heated bed temperature">80.0</setting>
-      <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
-      <setting key="retraction amount">5</setting>
-    </machine>
+    <setting key="retraction speed">50.0</setting>
+    <setting key="standby temperature">175.0</setting>
     <machine>
       <machine_identifier manufacturer="CreawsomeMod" product="creality_base" />
       <setting key="heated bed temperature">80.0</setting>
-      <setting key="standby temperature">200</setting>
+      <setting key="retraction amount">5</setting>
       <setting key="print cooling">50</setting>
       <setting key="retraction speed">45</setting>
+      <setting key="standby temperature">200</setting>
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="Creality3D" product="creality_ender3" />
+      <setting key="heated bed temperature">80.0</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="print cooling">50</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="standby temperature">200</setting>
     </machine>
   </settings>
 </fdmmaterial>
